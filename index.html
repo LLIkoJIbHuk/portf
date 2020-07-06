@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Сайт Портфолио | Главная</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/e99dd5763c.js" crossorigin="anonymous"></script>
+  </head>
+<body>
+
+  <header class="header py-4">
+    <div class="nav-container">
+      <div class="logo">Сайт Портфолио</div>
+      <div class="nav-wrapper">
+        <!-- Desktop nav -->
+        <ul class="desktop-nav">
+          <li class="desktop-nav__item"><a href="#" class="desktop-nav__link">Главная</a></li>
+          <li class="desktop-nav__item"><a href="pages/education.html" class="desktop-nav__link">Образование</a></li>
+          <li class="desktop-nav__item"><a href="pages/hobby.html" class="desktop-nav__link">Увлечения</a></li>
+          <li class="desktop-nav__item"><a href="pages/contact.html" class="desktop-nav__link">Контакты</a></li>
+        </ul>
+        <!-- Mobile nav | Button -->
+        <div id="menu-togle" class="menu-icon">
+            <div class="menu-icon-line"></div>
+        </div>
+        <!-- Mobile nav -->
+        <div id="mobile-nav" class="mobile-nav">
+          <div class="mobile-nav__title">Навигация</div>
+          <ul class="mobile-nav__list">
+            <li class="mobile-nav__item"><a href="#" class="mobile-nav__link">Главная</a></li>
+            <li class="mobile-nav__item"><a href="pages/education.html" class="mobile-nav__link">Образование</a></li>
+            <li class="mobile-nav__item"><a href="pages/hobby.html" class="mobile-nav__link">Увлечения</a></li>
+            <li class="mobile-nav__item"><a href="pages/contact.html" class="mobile-nav__link">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div id="particles-js"></div>
+      <div class="indexHeader">
+          <a id="btnn" class="btnflip" href="#about">
+          <span style="color: black;" class="btnflip-item btnflip__front"><i class="fas fa-angle-double-down"></i></span>
+          <span class="btnflip-item btnflip__center"></span>
+          <span style="color: black;" class="btnflip-item btnflip__back"><i class="fas fa-angle-double-down"></i></span>
+          </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="about py-4" id="about">
+    <div class="about__item wow fadeInUp" data-wow-delay=".1s">
+      <a href="pages/education.html" ><img src="img/about__1.png" alt="Образование">
+        <div class="about__item__content" >
+          <h3>Образование</h3>
+        </div>
+      </a>
+    </div>
+    <div class="about__item wow fadeInUp" data-wow-delay=".3s">
+      <a href="pages/hobby.html" ><img src="img/about__2.png" alt="Увлечения">
+        <div class="about__item__content" >
+          <h3>Увлечения</h3>
+        </div>
+      </a>
+    </div>
+    <div class="about__item wow fadeInUp" data-wow-delay=".5s">
+      <a href="#" ><img src="img/about__3.png" alt="Контакты">
+        <div class="about__item__content" >
+          <h3>Контакты</h3>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <footer class="footer py-4 mt-auto" >
+    <div class="container text-center text-md-left">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <p><a class="footer-link" href="mailto:eff0eeecee@gmail.com"><i class="far fa-envelope"></i> eff0eeecee@gmail.com</a></p>
+          <p><a class="footer-link" href="https://github.com/LLIkoJIbHuk"><i class="fab fa-github"></i> GitHub</a></p>
+          <p><a class="footer-link" href="tel:+79513498470"><i class="fas fa-phone-alt"></i> +7-951-349-84-70</a></p>
+          <p class="footer-copyright" >Copyright © 2020 <a href="#" class="footer-link">Константин Юрлов</a> </p>
+        </div>
+        <div class="col-md-3 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Навигация</h5>
+          <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: white;">
+          <ul class="list-unstyled">
+            <li>
+              <a class="footer-link" href="pages/education.html">Образование</a>
+            </li>
+            <li>
+              <a class="footer-link" href="pages/hobby.html">Увлечения</a>
+            </li>
+            <li>
+              <a class="footer-link" href="pages/contact.html">Контакты</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-md-0 mb-3">
+          <h5 class="text-uppercase">прочее</h5>
+          <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: white;">
+          <ul class="list-unstyled">
+            <li>
+              <a class="footer-link" href="pages/about.html">О сайте</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
+
+  <script src="js/wow.min.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

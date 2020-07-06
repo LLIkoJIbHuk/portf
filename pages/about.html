@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Сайт Портфолио | О сайте</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/animate.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/e99dd5763c.js" crossorigin="anonymous"></script>
+  </head>
+<body>
+
+  <header class="header py-4">
+    <div class="nav-container">
+      <div class="logo">Сайт Портфолио</div>
+      <div class="nav-wrapper">
+        <!-- Desktop nav -->
+        <ul class="desktop-nav">
+          <li class="desktop-nav__item"><a href="../index.html" class="desktop-nav__link">Главная</a></li>
+          <li class="desktop-nav__item"><a href="education.html" class="desktop-nav__link">Образование</a></li>
+          <li class="desktop-nav__item"><a href="hobby.html" class="desktop-nav__link">Увлечения</a></li>
+          <li class="desktop-nav__item"><a href="contact.html" class="desktop-nav__link">Контакты</a></li>
+        </ul>
+        <!-- Mobile nav | Button -->
+        <div id="menu-togle" class="menu-icon">
+            <div class="menu-icon-line"></div>
+        </div>
+        <!-- Mobile nav -->
+        <div id="mobile-nav" class="mobile-nav">
+          <div class="mobile-nav__title">Навигация</div>
+          <ul class="mobile-nav__list">
+            <li class="mobile-nav__item"><a href="../index.html" class="mobile-nav__link">Главная</a></li>
+            <li class="mobile-nav__item"><a href="education.html" class="mobile-nav__link">Образование</a></li>
+            <li class="mobile-nav__item"><a href="hobby.html" class="mobile-nav__link">Увлечения</a></li>
+            <li class="mobile-nav__item"><a href="contact.html" class="mobile-nav__link">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="indexHeader">
+          <h1 style="font-family: 'Kurale-Regular', serif;">О сайте</h1>
+          <a id="btnn" class="btnflip" href="#about-site">
+          <span style="color: black;" class="btnflip-item btnflip__front"><i class="fas fa-angle-double-down"></i></span>
+          <span class="btnflip-item btnflip__center"></span>
+          <span style="color: black;" class="btnflip-item btnflip__back"><i class="fas fa-angle-double-down"></i></span>
+          </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="about-site" id="about-site">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-auto">
+          <h1>Используемые языки</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md">
+          <div class="about-site__content wow rotateIn" data-wow-delay=".1s">
+            <img src="../img/about-site__1.svg" alt="HTML5" >
+            <p>HTML5</p>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="about-site__content wow rotateIn" data-wow-delay=".3s">
+            <img src="../img/about-site__2.svg" alt="CSS3" >
+            <p>CSS3</p>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="about-site__content wow rotateIn" data-wow-delay=".5s">
+            <img src="../img/about-site__3.svg" alt="JS" >  
+            <p>JS</p>        
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-auto">
+          <h1>Фреймворк</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md">
+          <div class="about-site__content wow flip">
+            <img src="../img/about-site__4.svg" alt="Bootstrap" >
+            <p>Bootstrap</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-auto">
+          <h1>Библиотеки</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md">
+          <div class="about-site__content wow flipInX" data-wow-delay=".1s">
+            <img src="../img/about-site__5.png" alt="Bootstrap" style="height: 100px; width: auto;">
+            <p>animate.css</p>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="about-site__content wow flipInY" data-wow-delay=".3s">
+            <img src="../img/about-site__6.jpg" alt="Bootstrap" style="height: 100px; width: auto;">
+            <p>wow.js</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer py-4 mt-auto" >
+    <div class="container text-center text-md-left">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <p><a class="footer-link" href="mailto:eff0eeecee@gmail.com"><i class="far fa-envelope"></i> eff0eeecee@gmail.com</a></p>
+          <p><a class="footer-link" href="https://github.com/LLIkoJIbHuk"><i class="fab fa-github"></i> GitHub</a></p>
+          <p><a class="footer-link" href="tel:+79513498470"><i class="fas fa-phone-alt"></i> +7-951-349-84-70</a></p>
+          <p class="footer-copyright" >Copyright © 2020 <a href="#" class="footer-link">Константин Юрлов</a> </p>
+        </div>
+        <div class="col-md-3 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Навигация</h5>
+          <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: white;">
+          <ul class="list-unstyled">
+            <li>
+              <a class="footer-link" href="education.html">Образование</a>
+            </li>
+            <li>
+              <a class="footer-link" href="hobby.html">Увлечения</a>
+            </li>
+            <li>
+              <a class="footer-link" href="contact.html">Контакты</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-md-0 mb-3">
+          <h5 class="text-uppercase">прочее</h5>
+          <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: white;">
+          <ul class="list-unstyled">
+            <li>
+              <a class="footer-link" href="#">О сайте</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
+
+  <script src="../js/wow.min.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>
