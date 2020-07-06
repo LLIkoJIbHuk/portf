@@ -538,7 +538,7 @@ footer h5{
 }
 
 .five-wrap{
-  width: 500px auto;
+  width: 500px;
   height: 180px;
   margin: 20px auto;
   position: relative;
@@ -703,7 +703,7 @@ tr:nth-child(2n) {background: #e8edff;}
 }
 
 .about-site__content{
-  width: 420px auto;
+  width: 420px;
   height: 300px;
   margin: 20px auto;
   position: relative;
